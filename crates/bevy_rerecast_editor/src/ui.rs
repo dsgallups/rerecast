@@ -256,7 +256,7 @@ fn ui_bundle() -> impl Bundle {
                     ..default()
                 },
                 ThemeBackgroundColor(tokens::WINDOW_BG),
-                children![(StatusText, label("")), label("Rerecast Editor v0.2.0")],
+                children![(StatusText, label("")), label("Rerecast Editor v0.3.0")],
             )
         ],
     )
